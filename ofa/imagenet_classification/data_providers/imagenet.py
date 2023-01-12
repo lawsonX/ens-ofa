@@ -308,3 +308,4 @@ class ImagenetDataProvider(DataProvider):
                     (images, labels)
                 )
         return self.__dict__["sub_train_%d" % self.active_img_size]
+
